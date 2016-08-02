@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteConfig>
+  <constKeyValue>
+    <!--图片存储-->
+    <add key="image" value="http://file.frllk.com/data"/>
+    <!--视频存储-->
+    <add key="video" value="http://file.frllk.com/data/video/"/>
+    <!--文件存储-->
+    <add key="storage" value="\\file.frllk.com\www\Storage"/>
+    <!--签到送积分-->
+    <add key="signin" value="5"/>
+    <!--access-token 名称-->
+    <add key="access_token_name" value="Access-Token"/>
+    <!--APP版本号头名称-->
+    <add key="vesion_for_app" value="Vesion"/>
+  </constKeyValue>
+
+  <thumbnails>
+    <thumbnail key="default">
+      <!--默认上传的图片生成这三种类型-->
+      <size><![CDATA[60*60]]></size>
+      <size><![CDATA[120*120]]></size>
+      <size><![CDATA[240*240]]></size>
+    </thumbnail>
+    <thumbnail key="avatar">
+      <size><![CDATA[60*60]]></size>
+      <size><![CDATA[120*120]]></size>
+      <size><![CDATA[240*240]]></size>
+    </thumbnail>
+    <thumbnail key="video">
+      <size><![CDATA[160*90]]></size>
+      <size><![CDATA[320*180]]></size>
+      <size><![CDATA[640*360]]></size>
+      <size><![CDATA[1280*720]]></size>
+    </thumbnail>
+    <thumbnail key="feature">
+      <size><![CDATA[35*35]]></size>
+      <size><![CDATA[70*70]]></size>
+      <size><![CDATA[105*105]]></size>
+    </thumbnail>
+    <!--标签场景-->
+    <thumbnail key="scene">
+      <size><![CDATA[117*134]]></size>
+      <size><![CDATA[234*268]]></size>
+    </thumbnail>
+    <!--美食专题图片-->
+    <thumbnail key="food">
+      <size><![CDATA[250*140]]></size>
+      <size><![CDATA[750*420]]></size>
+    </thumbnail>
+  </thumbnails>
+</siteConfig>
